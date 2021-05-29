@@ -28,7 +28,7 @@ public class RunAnalysis {
                 .mapToDouble(d -> d)
                 .sum();
 
-        try (var writer = Files.newBufferedWriter(Paths.get("D:\\Users\\chris\\Documents\\CSDSchool\\MatSimClass\\projects\\velbert\\scenarios\\velbert-v1.0-1pct\\modes-events.csv")); var printer = CSVFormat.DEFAULT.withDelimiter(',').withHeader("Mode", "Count", "Share").print(writer)) {
+        try (var writer = Files.newBufferedWriter(Paths.get("D:\\Users\\chris\\Documents\\CSDSchool\\MatSimClass\\projects\\velbert\\scenarios\\velbert-v1.0-1pct\\modes-events-velbert.csv")); var printer = CSVFormat.DEFAULT.withDelimiter(',').withHeader("Mode", "Count", "Share").print(writer)) {
 
             for (var entry : modes.entrySet()) {
                 printer.printRecord(entry.getKey(), entry.getValue(), entry.getValue() / totalTrips);
