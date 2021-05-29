@@ -35,5 +35,6 @@ hs_err_pid*
 /scenarios/velbert-v1.0-10pct/OSM_PLZ_072019.shp
 /scenarios/velbert-v1.0-10pct/OSM_PLZ_072019.shx
 
+/scenarios/velbert-v1.0-1pct/cluster-outputs
 /.idea/
 *.iml
