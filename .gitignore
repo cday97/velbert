@@ -25,6 +25,7 @@ hs_err_pid*
 /scenarios/velbert-v1.0-1pct/OSM_PLZ_072019.dbf
 /scenarios/velbert-v1.0-1pct/OSM_PLZ_072019.shp
 /scenarios/velbert-v1.0-1pct/OSM_PLZ_072019.shx
+/scenarios/velbert-v1.0-1pct/cluster-outputs*
 
 /scenarios/velbert-v1.0-10pct/matsim-velbert-v1.0.network.xml.gz
 /scenarios/velbert-v1.0-10pct/matsim-velbert-v1.0.transit-schedule.xml.gz
